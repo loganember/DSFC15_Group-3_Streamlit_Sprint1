@@ -23,7 +23,8 @@ pg.run()
 #     ("Home", "Our Game Plan", "Introduction to The Dataset", "Behind The Numbers", "What Now?", "Appendices"),
 # )
 
-# Data miming Logo in the sidebar 
+# Data miming Logo in the sidebar
+st.logo("images/data_miming.png", icon_image="images/data_miming_s.png", size="medium")
 # big_logo = "images/data_miming.png"
 # small_logo = "images/data_miming_s.png"
 
