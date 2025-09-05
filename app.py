@@ -24,11 +24,11 @@ pg.run()
 # )
 
 # Data miming Logo in the sidebar 
-big_logo = "images/data_miming.png"
-small_logo = "images/data_miming_s.png"
+# big_logo = "images/data_miming.png"
+# small_logo = "images/data_miming_s.png"
 
-st.logo(big_logo, icon_image=small_logo)
-st.sidebar.markdown("Group :3")
+# st.logo(big_logo, icon_image=small_logo)
+# st.sidebar.markdown("Group :3")
 
 # Home
 st.title("From Clusters to Clarity: Predicting Churn with K-Means")
