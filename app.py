@@ -29,15 +29,13 @@ pg.run()
 # small_logo = "images/data_miming_s.png"
 
 # st.logo(big_logo, icon_image=small_logo)
-st.sidebar.markdown("Group :3")
+# st.sidebar.markdown("Group :3")
 
 
 # Ensure directories exist
 data_dir = "data"
 image_dir = "images"
 plot_dir = "plots"
-
-
 
 os.makedirs(data_dir, exist_ok=True)
 os.makedirs(image_dir, exist_ok=True)
