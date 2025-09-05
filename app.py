@@ -1,5 +1,5 @@
 import streamlit as st
-
+import os
 # Set page title
 st.set_page_config(page_title="DSFC15 Group 3 - Sprint1 Streamlit", layout="wide")
 
