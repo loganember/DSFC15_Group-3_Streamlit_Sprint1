@@ -1,5 +1,10 @@
 import os
 import streamlit as st
+
+data_dir = "data"
+image_dir = "images"
+plot_dir = "plots"
+
 # Visualizations
 st.title("Behind The Numbers")
 st.divider()
