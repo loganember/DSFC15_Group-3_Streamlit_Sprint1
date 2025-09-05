@@ -5,12 +5,14 @@ st.set_page_config(page_title="DSFC15 Group 3 - Sprint1 Streamlit", layout="wide
 
 # Sidebar Navigation
 pages = {
+    "Navigation": [
       st.Page("home.py", title="Home"),
       st.Page("game_plan.py", title="Our Game Plan"),
       st.Page("dataset.py", title="Introduction to The Dataset"),
       st.Page("visual.py", title="Behind The Numbers"),
       st.Page("reco.py", title="What Now?"),
       st.Page("appen.py", title="Appendices"),
+    ]
 }
 
 pg = st.navigation(pages)
