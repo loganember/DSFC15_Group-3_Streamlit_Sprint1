@@ -30,10 +30,6 @@ pg.run()
 # st.logo(big_logo, icon_image=small_logo)
 # st.sidebar.markdown("Group :3")
 
-# Home
-st.title("From Clusters to Clarity: Predicting Churn with K-Means")
-st.subheader("Uncovering hidden patterns in churn behavior")
-
 # Ensure directories exist
 data_dir = "data"
 image_dir = "images"
