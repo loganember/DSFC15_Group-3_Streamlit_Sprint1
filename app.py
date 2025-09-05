@@ -23,6 +23,19 @@ pg.run()
 #     ("Home", "Our Game Plan", "Introduction to The Dataset", "Behind The Numbers", "What Now?", "Appendices"),
 # )
 
+
+
+# Ensure directories exist
+data_dir = "data"
+image_dir = "images"
+plot_dir = "plots"
+
+
+
+os.makedirs(data_dir, exist_ok=True)
+os.makedirs(image_dir, exist_ok=True)
+os.makedirs(plot_dir, exist_ok=True)
+
 # Data miming Logo in the sidebar
 st.logo("images/data_miming.png", icon_image="images/data_miming_s.png", size="medium")
 # big_logo = "images/data_miming.png"
@@ -30,12 +43,3 @@ st.logo("images/data_miming.png", icon_image="images/data_miming_s.png", size="m
 
 # st.logo(big_logo, icon_image=small_logo)
 # st.sidebar.markdown("Group :3")
-
-# Ensure directories exist
-data_dir = "data"
-image_dir = "images"
-plot_dir = "plots"
-
-os.makedirs(data_dir, exist_ok=True)
-os.makedirs(image_dir, exist_ok=True)
-os.makedirs(plot_dir, exist_ok=True)
