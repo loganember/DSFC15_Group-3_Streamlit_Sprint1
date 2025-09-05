@@ -40,3 +40,20 @@ plot_dir = "plots"
 os.makedirs(data_dir, exist_ok=True)
 os.makedirs(image_dir, exist_ok=True)
 os.makedirs(plot_dir, exist_ok=True)
+
+page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
+[data-testid="stHeader"] {{
+background: rgba(0,0,0,0);
+}}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
