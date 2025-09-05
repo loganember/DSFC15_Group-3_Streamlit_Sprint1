@@ -24,9 +24,15 @@ pg.run()
 # )
 
 # Data miming Logo in the sidebar 
-sidebar_logo = "images/data_miming_logo.png"
+big_logo = "images/data_miming.png"
+small_logo = "images/data_miming_s.png"
 
-st.logo(icon_image=sidebar_logo)
+st.logo(
+    big_logo,
+    width=100,
+    height=100
+    icon_image=small_logo
+)
 st.sidebar.markdown("Group :3")
 
 # Home
