@@ -30,7 +30,7 @@ small_logo = "images/data_miming_s.png"
 st.logo(
     big_logo,
     width=100,
-    height=100
+    height=100,
     icon_image=small_logo
 )
 st.sidebar.markdown("Group :3")
