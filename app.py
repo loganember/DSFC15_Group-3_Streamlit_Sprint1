@@ -37,7 +37,7 @@ os.makedirs(image_dir, exist_ok=True)
 os.makedirs(plot_dir, exist_ok=True)
 
 # Data miming Logo in the sidebar
-st.logo("images/data_miming.png", icon_image="images/data_miming_s.png", size="medium")
+st.logo("data_miming.png", icon_image="data_miming_s.png", size="medium")
 # big_logo = "images/data_miming.png"
 # small_logo = "images/data_miming_s.png"
 
