@@ -20,7 +20,7 @@ with col1:
     st.image(churn)
 
 with col2:
-    with st.container(height=500, vertical_alignment="center"):
+    with st.container(height=400, vertical_alignment="center"):
       st.markdown("*As of 2025, leading banks in the Philippines reported strong **double-digit growth in credit card receivables**, driven by rising consumer spending.")
       left, right = st.columns(2)
       left.button("+48% growth in 2024*", width="stretch")
