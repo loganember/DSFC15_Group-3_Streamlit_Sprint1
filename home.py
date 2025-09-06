@@ -30,3 +30,6 @@ with col2:
       st.markdown("##### However, growth is only half the story. In this competitive market, **even small amounts of churn can quietly cut into profits.**")
 
 st.divider()
+with st.container(vertical_alignment="center"):
+  st.markdown('''
+      ## :blue-background[The Big Question]''')
