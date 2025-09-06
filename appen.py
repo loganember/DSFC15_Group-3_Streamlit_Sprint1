@@ -18,12 +18,16 @@ st.caption("Others = ['misc_net', 'misc_pos', 'others']")
 with st.expander("See analysis"):
   st.markdown('''
         **Insights by Category:**
+
             1. **Essential Spenders**:
               - The largest group as 84% of customers classify under this segment which indicates that most customers are spending primarily on necessities like groceries, health, and personal care.
+            
             2. **Entertainment Enthusiasts**:
               - These customers focus more on entertainment-related spending. The transactions made may be infrequent, potentially driven by seasonal trends or occasional spending behavior.
+            
             3. **Others**:
               - Represents uncategorized or miscellaneous spending, not fitting in any specific group.
+            
             4. **Food Lovers**:
               - Zero transactions, which may simply indicate that customers tend to use their credit cards more for other categories rather than food and dining.
 
