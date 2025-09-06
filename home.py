@@ -16,7 +16,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.header("Why Does Churn Matter?")
-    churn = os.path.join(image_dir, "customer_churn.jpg")
+    churn = os.path.join(image_dir, "customer-churn.jpg")
     st.image(churn)
 
 with col2:
