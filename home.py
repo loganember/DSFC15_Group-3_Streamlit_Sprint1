@@ -30,9 +30,7 @@ with col2:
       st.markdown("##### However, growth is only half the story. In this competitive market, **even small amounts of churn can quietly cut into profits.**")
 
 st.divider()
-with st.container(horizontal_alignment="center", width="stretch"):
+with st.container(horizontal_alignment="center", width="stretch" height=100):
   st.markdown('''
-      # :blue-background[The Big Question]
-      
-      ## Which Adobo Bank customers are most likely to stop using their credit card?
+      # :blue-background[The Big Question: Which Adobo Bank customers are most likely to stop using their credit card?] 
       ''')
