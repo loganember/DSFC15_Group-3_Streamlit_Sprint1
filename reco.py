@@ -29,7 +29,7 @@ with st.container(height="content", vertical_alignment="center"):
       | Regular    | LOW | MEDIUM | MEDIUM |
       | Occasional    | HIGH | LOW | MEDIUM |
       ''')
-    st.write('''
+    st.markdown('''
           **Key Strategies**:
               1. VIPs: Focus on maintain engagement and retention
                     * Offer loyalty rewards like higher cashback or exclusive discounts
