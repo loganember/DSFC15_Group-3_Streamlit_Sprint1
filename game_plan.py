@@ -22,7 +22,7 @@ with col1:
       ''')
 
 with col2:
-    with st.container(height=105, vertical_alignment="center"):
+    with st.container(height=110, vertical_alignment="center"):
       st.markdown('''
       ##### Customer Churn Prediction
       This method is best for binary classification, i.e. churn or not churn. It is also able to output probabilities, for eg. Customer A has a 85% chance of churn.
@@ -34,3 +34,28 @@ with col2:
       ''')
 
 # put divider
+st.divider()
+
+col3, col4 = st.columns(2)
+with col3:
+  with st.container(height=300, vertical_alignment="center"):
+    st.markdown('''
+      The following behavioral patterns (temporal behavior) were also taken into account during analysis.
+      ''')
+
+with col4:
+    with st.container(height=110, vertical_alignment="center"):
+      st.markdown('''
+      | Transaction Time    | Category |
+      | -------- | ------- |
+      | Early Birds  | 6 AM to 9 AM    |
+      | Night Owls | 10 PM to 2 AM     |
+      | Regular    | Rest of the day    |
+      ''')
+    with st.container(height=170, vertical_alignment="center"):
+      st.markdown('''
+      | Transaction Day    | Category |
+      | -------- | ------- |
+      | Weekday Spender  | Monday to Friday    |
+      | Weekend Spender | Saturday to Sunday     |
+      ''')
