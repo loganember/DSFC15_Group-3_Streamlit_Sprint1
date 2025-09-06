@@ -143,3 +143,29 @@ with st.container(height="content", vertical_alignment="center"):
           * **Generation X** hasn’t transacted recently (102 days) but exhibit balanced spending behavior, i.e. they transact fairly frequently (924) and in fair amounts ($219).
           * **Silent Generation** engage the most recently (58 days), don’t transact often (766) but when they do, they spend big ($263).
     ''')
+
+
+st.subheader("7. Peer benchmarking: Creating a category churn threshold by geographic cohort ")
+
+cola, colb = st.columns(2)
+
+with cola:
+    st.markdown('''
+      | Segment    | Days since last txn | Frequency | Amount |
+      | -------- | ------- | -------- | ------- |
+      | Baby Boomer    | MODERATE | HIGH | LOW |
+      | Generation X    | HIGH | MODERATE | MODERATE |
+      | Silent Generation    | LOW | LOW | HIGH |
+      ''')
+
+with colb:
+    st.write('''
+      **Recommendation:**
+          - Due to time constraints, machine learning was not yet applied to the age group analysis. It is recommended moving forward as a future enhancement to further strengthen insights.
+
+      ''')
+
+with st.container(height="content", vertical_alignment="center"):
+  st.write('''
+          When analyzing the different generations, clear and distinct patterns were observed in customers’ behavior. Each generation engages with transactions in its own unique way, whether in terms of frequency, value, or timing. 
+  ''')
