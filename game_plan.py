@@ -40,10 +40,10 @@ col3, col4 = st.columns(2)
 with col3:
   with st.container(height=300, vertical_alignment="center"):
     st.markdown('''
-      The following behavioral patterns (temporal behavior) were also taken into account during analysis.
+      ### The following behavioral patterns (temporal behavior) were also taken into account during analysis.
       ''')
 
-with col4:
+with col3:
     with st.container(height="content", vertical_alignment="center"):
       st.markdown('''
       | Transaction Time    | Category |
@@ -52,7 +52,9 @@ with col4:
       | Night Owls | 10 PM to 2 AM     |
       | Regular    | Rest of the day    |
       ''')
-    with st.container(height=170, vertical_alignment="center"):
+
+with col4:
+    with st.container(height="content", vertical_alignment="center"):
       st.markdown('''
       | Transaction Day    | Category |
       | -------- | ------- |
