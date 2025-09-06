@@ -31,7 +31,6 @@ with st.container(height="content", vertical_alignment="center"):
       ''')
     st.markdown('''
           **Key Strategies**:
-
                 1. VIPs: Focus on maintain engagement and retention
                         * Offer loyalty rewards like higher cashback or exclusive discounts
                         * Further analyze spending categories to personalize rewards
