@@ -44,7 +44,7 @@ with col3:
       ''')
 
 with col4:
-    with st.container(height=110, vertical_alignment="center"):
+    with st.container(height="content", vertical_alignment="center"):
       st.markdown('''
       | Transaction Time    | Category |
       | -------- | ------- |
