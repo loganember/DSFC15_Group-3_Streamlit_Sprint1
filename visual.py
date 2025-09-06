@@ -145,7 +145,7 @@ with st.container(height="content", vertical_alignment="center"):
     ''')
 
 
-st.subheader("7. Peer benchmarking: Creating a category churn threshold by geographic cohort ")
+st.subheader("10. Distinct generational behaviors signal need for tailored strategies but future ML enhancement is still needed")
 
 cola, colb = st.columns(2)
 
