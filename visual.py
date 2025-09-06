@@ -57,10 +57,13 @@ st.subheader("5. Historical Benchmarking: Flagged Accounts show consistent 3-Mon
 g5 = os.path.join(plot_dir, "5.png")
 st.image(g5)
 with st.expander("See analysis"):
-  st.write('''
+  st.markdown('''
         **Blue Line – Monthly Spend**: Customer’s actual spending each month.
+
         **Orange Line – 3-Month Avg**: Smooths short-term changes to show recent spending trends.
+
         **Red Line – 6-Month Avg**: Longer-term baseline to separate temporary dips from true declines.
+
         **Red Dots – Churn Risk Flags**:
             Triggered when:
               1. 3-Month Avg is falling
