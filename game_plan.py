@@ -11,7 +11,7 @@ plot_dir = "plots"
 st.title("The Game Plan")
 col1, col2 = st.columns(2)
 with col1:
-  with st.container(height=300, vertical_alignment="center"):
+  with st.container(height=200, vertical_alignment="center"):
     st.markdown('''
       The analysis focused on the following key factors:
         * How often Adobo Bank use their credit card/s
@@ -22,12 +22,12 @@ with col1:
       ''')
 
 with col2:
-    with st.container(height=110, vertical_alignment="center"):
-      st.markdown('''
-      ##### Customer Churn Prediction
-      This method is best for binary classification, i.e. churn or not churn. It is also able to output probabilities, for eg. Customer A has a 85% chance of churn.
-      ''')
-    with st.container(height=170, vertical_alignment="center"):
+    # with st.container(height=110, vertical_alignment="center"):
+    #   st.markdown('''
+    #   ##### Customer Churn Prediction
+    #   This method is best for binary classification, i.e. churn or not churn. It is also able to output probabilities, for eg. Customer A has a 85% chance of churn.
+    #   ''')
+    with st.container(height=200, vertical_alignment="center"):
       st.markdown('''
       ##### K-Means Clustering (Machine Learning)
       After we have determined the similar usage pattern of each customer in terms of recency and frequency, they can be clustered into whether or not they will stop using their credit card. This solution can also help distinguish the temporal and behavioral patterns for the customers.
@@ -58,3 +58,9 @@ with col4:
       | Weekday Spender  | Monday to Friday    |
       | Weekend Spender | Saturday to Sunday     |
       ''')
+
+st.divider()
+
+st.subheader("Methodolgy")
+churn = os.path.join(image_dir, "st_methodology.png")
+st.image(churn)
