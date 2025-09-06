@@ -5,10 +5,11 @@ data_dir = "data"
 image_dir = "images"
 plot_dir = "plots"
 
-col1, col2 = st.columns(2)
+
 
 # Game Plan
 st.title("The Game Plan")
+col1, col2 = st.columns(2)
 with col1:
     st.markdown('''
       The analysis focused on the following key factors:
