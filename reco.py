@@ -78,7 +78,7 @@ with colf4:
 st.subheader("Other possible methods")
 st.markdown('''
           ##### Logistic Regression
-          ####### This method is best for binary classification, i.e. churn or not churn. It is also able to output probabilities, for eg. Customer A has a 85% chance of churn.
+          ###### This method is best for binary classification, i.e. churn or not churn. It is also able to output probabilities, for eg. Customer A has a 85% chance of churn.
     ''')
 st.caption("Due to constraints in the data set, we were limited in our machine learning applications.")
 st.caption("If the data set were large enough, we would also implement logistic regression to predict customer churn.")
