@@ -31,14 +31,17 @@ with st.container(height="content", vertical_alignment="center"):
       ''')
     st.markdown('''
           **Key Strategies**:
-              1. VIPs: Focus on maintain engagement and retention
-                    * Offer loyalty rewards like higher cashback or exclusive discounts
-                    * Further analyze spending categories to personalize rewards
-              2. Regulars: Encourage higher spend and/or transaction frequency
-                    * Promote tools for payment convenience like tap-to-pay to encourage frequent card usage
-              3. Occasionals: Re-engage them and encourage more regular transactions
-                    * Send personalized “We Miss You” offers or limited-time perks
-                    * Personalized marketing: Use behavior and transaction category to suggest relevant products.
-                    * Proactive outreach: Send helpful financial tips, alerts, or reminders before issues arise.
-                    * Loyalty programs: Offer perks for long-term customers (e.g., reduced fees, special rates).
+
+                1. VIPs: Focus on maintain engagement and retention
+                        * Offer loyalty rewards like higher cashback or exclusive discounts
+                        * Further analyze spending categories to personalize rewards
+
+                2. Regulars: Encourage higher spend and/or transaction frequency
+                        * Promote tools for payment convenience like tap-to-pay to encourage frequent card usage
+                      
+                3. Occasionals: Re-engage them and encourage more regular transactions
+                        * Send personalized “We Miss You” offers or limited-time perks
+                        * Personalized marketing: Use behavior and transaction category to suggest relevant products.
+                        * Proactive outreach: Send helpful financial tips, alerts, or reminders before issues arise.
+                        * Loyalty programs: Offer perks for long-term customers (e.g., reduced fees, special rates).
     ''')
