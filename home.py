@@ -1,5 +1,10 @@
 import streamlit as st
 import os
+
+data_dir = "data"
+image_dir = "images"
+plot_dir = "plots"
+
 # Home
 st.title("From Clusters to Clarity: Predicting Churn with K-Means")
 st.subheader("Uncovering hidden patterns in churn behavior")
