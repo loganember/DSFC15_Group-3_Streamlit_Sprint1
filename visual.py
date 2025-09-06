@@ -8,10 +8,13 @@ plot_dir = "plots"
 # Visualizations
 st.title("Behind The Numbers")
 st.divider()
+st.subheader("1. Majority of transactions are small and happen during regular working hours")
+g1 = os.path.join(plot_dir, "1.png")
+st.image(g1)
+with st.expander("See analysis"):
+    st.write('''
+        The largest segment (**47,524**) of transactions consists of **Low-Spend Regular Weekday**, followed by those that are **Low-Spend Regular Weekend** (**31,086**).
 
-# Display an image from images folder
-overall_img_path = os.path.join(image_dir, "data_miming_logo.png")
-if os.path.exists(overall_img_path):
-    st.image(overall_img_path, caption="test", use_column_width=True)
-else:
-    st.warning("No overview image found. Please add an image to `images/` directory.")
+        High spend transactions make up a smaller portion of the data with only **1,133 High-Spend Regular Weekday** transactions and just **8 High-Spend Regular Weekend** transactions.
+    ''')
+
