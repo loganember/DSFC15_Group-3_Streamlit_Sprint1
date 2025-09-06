@@ -32,4 +32,7 @@ with col2:
 st.divider()
 with st.container(horizontal_alignment="center", width="stretch"):
   st.markdown('''
-      # :blue-background[The Big Question]''')
+      # :blue-background[The Big Question]
+      
+      ## Which Adobo Bank customers are most likely to stop using their credit card?
+      ''')
