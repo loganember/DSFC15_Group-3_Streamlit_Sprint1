@@ -14,7 +14,7 @@ df = pd.read_csv('data/cc_clean.csv')
 st.dataframe(df)
 
 st.markdown('''
-      ####### The model was driven by four main variables, i.e. ```dob```, ```acct_num```, ```amt``` and ```trans_datetime```.
+            ###### The model was driven by four main variables, i.e. ```dob```, ```acct_num```, ```amt``` and ```trans_datetime```.
 ''')
 
 
