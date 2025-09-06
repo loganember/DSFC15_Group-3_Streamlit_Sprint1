@@ -21,10 +21,10 @@ with col1:
 
 with col2:
     with st.container(height=400, vertical_alignment="center"):
-      st.markdown("### *As of 2025, leading banks in the Philippines reported strong **double-digit growth in credit card receivables**, driven by rising consumer spending.")
+      st.markdown("#### *As of 2025, leading banks in the Philippines reported strong **double-digit growth in credit card receivables**, driven by rising consumer spending.")
       left, right = st.columns(2)
       left.button("+48% growth in 2024*", width="stretch")
       right.button("+18.2% growth in H1 2025**", width="stretch")
-      st.markdown("### However, growth is only half the story. In this competitive market, **even small amounts of churn can quietly cut into profits.**")
+      st.markdown("#### However, growth is only half the story. In this competitive market, **even small amounts of churn can quietly cut into profits.**")
 
 st.divider()
