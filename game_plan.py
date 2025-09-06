@@ -5,6 +5,8 @@ data_dir = "data"
 image_dir = "images"
 plot_dir = "plots"
 
+col1, col2 = st.columns(2)
+
 # Game Plan
 st.title("The Game Plan")
 with col1:
