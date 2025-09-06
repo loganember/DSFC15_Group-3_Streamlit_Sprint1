@@ -21,13 +21,15 @@ with col1:
       ''')
 
 with col2:
-    with st.container(height=400, vertical_alignment="center"):
+    with st.container(height=100, vertical_alignment="center"):
       st.markdown('''
-      #### Customer Churn Prediction
-      ###### This method is best for binary classification, i.e. churn or not churn. It is also able to output probabilities, for eg. Customer A has a 85% chance of churn.
-
-      #### K-Means Clustering (Machine Learning)
-      ###### After we have determined the similar usage pattern of each customer in terms of recency and frequency, they can be clustered into whether or not they will stop using their credit card. This solution can also help distinguish the temporal and behavioral patterns for the customers.
+      ##### Customer Churn Prediction
+      This method is best for binary classification, i.e. churn or not churn. It is also able to output probabilities, for eg. Customer A has a 85% chance of churn.
+      ''')
+    with st.container(height=100, vertical_alignment="center"):
+      st.markdown('''
+      ##### K-Means Clustering (Machine Learning)
+      After we have determined the similar usage pattern of each customer in terms of recency and frequency, they can be clustered into whether or not they will stop using their credit card. This solution can also help distinguish the temporal and behavioral patterns for the customers.
       ''')
 
 # put divider
