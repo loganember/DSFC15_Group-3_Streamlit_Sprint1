@@ -11,7 +11,7 @@ plot_dir = "plots"
 st.title("The Game Plan")
 col1, col2 = st.columns(2)
 with col1:
-  with st.container(height=300, vertical_alignment="center"):
+  with st.container(height=270, vertical_alignment="center"):
     st.markdown('''
       The analysis focused on the following key factors:
         * How often Adobo Bank use their credit card/s
