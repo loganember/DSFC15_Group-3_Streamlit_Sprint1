@@ -16,8 +16,8 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.header("Why Does Churn Matter?")
-    overall_img_path = os.path.join(image_dir, "customer_churn.jpg")
-    st.image(overall_img_path, use_container_width=True)
+    churn = os.path.join(image_dir, "customer_churn.jpg")
+    st.image(churn)
 
 with col2:
     st.markdown("*As of 2025, leading banks in the Philippines reported strong **double-digit growth in credit card receivables**, driven by rising consumer spending.")
