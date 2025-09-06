@@ -36,12 +36,9 @@ with col2:
 # put divider
 st.divider()
 
+st.subheader("The following behavioral patterns (temporal behavior) were also taken into account during analysis.")
+
 col3, col4 = st.columns(2)
-with col3:
-  with st.container(height=300, vertical_alignment="center"):
-    st.markdown('''
-      ### The following behavioral patterns (temporal behavior) were also taken into account during analysis.
-      ''')
 
 with col3:
     with st.container(height="content", vertical_alignment="center"):
